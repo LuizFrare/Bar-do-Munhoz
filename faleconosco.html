@@ -1,0 +1,102 @@
+<!doctype html><!--este comando indica que estamos utilizando a versão 5.0 do HTML-->
+<HTML lang="pt-br"><!--este comando indica que estamos utilizando o português do Brasil-->
+   <head><!--cabeçalho da página-->
+   <title>Bar do Munhoz</title><!--titulo que aparece no navegador-->
+   <link rel="shortcut icon" href="img/favicon.ico"/>
+   <meta charset="utf-8"/>
+   <meta name="descripton" content=""/>
+   <meta name="author" content=""/>
+   <meta name="keywords" content=""/>
+   <link rel="stylesheet" href="css/estilo.css"/>
+   <script src="js/form.js"></script>
+  
+   </head>
+   <body><!--corpo da página-->
+	<header class="cabecalho"><!--cabeçalho da página-->
+	<a href="index.html">  <img class="logotam" alt="Logo-bar" src="img/logao.png"></a>
+	</header>
+	<nav class="menu"><!--menu principal-->
+	<ul><!--Lista desordenada-->
+		<li><a href="index.html">Início</a></li>
+		<li><a href="bebidas.html">Bebidas</a></li>
+		<li><a href="comidas.html">Comidas</a></li>
+		<li style="background:#e99900;
+		color:#fff;
+		-moz-window-shadow:0 3px 10px 0 #CCC;
+		-webkit-box-align:0 3px 10px 0 #ccc;
+		text-shadow:0px 0px 3px #fff;
+		border-radius:30px;
+		padding-bottom: 11px;
+		padding-top: 26px;"><a href="faleconosco.html">Fale Conosco</a></li>
+		<li><a href="faq.html">FAQ</a></li>
+	</ul><!--fecha lista-->
+	</nav><!-- fecha menu principal-->
+	<ul class="breadcrumbs">
+		<li class="breadcrumbs__item">
+			<a href="index.html" class="breadcrumbs__link">Início</a>
+		</li>
+
+		<li class="breadcrumbs__item">
+			<a class="breadcrumbs__link"> / </a>
+		</li>
+
+		<li class="breadcrumbs__item">
+			<a href="faleconosco.html" class="breadcrumbs__link breadcrumbs__link--active">Fale Conosco</a>
+		</li>
+	</ul>
+<div class="flex flex-wrap">
+
+	<div class="item" style="padding-left: 10%;" >
+	<div style="margin-top: 50px; ">
+	<br>
+	<br>
+	<br>
+	<h3 style="color:#100f1d">Fale Conosco</h3>
+	<p style="color: #dd9933; line-height: 1.7;">Entre em contato com nosso atendimento para reservas, aniversários eventos dúvidas e sugestões, envie um formulário de contato retornaremos o mais rápido.</p>
+	<br>
+	</div>
+</div>
+		<div class="item" style="padding-left: 8%;">
+			<form>
+				<span><input type="text"  required placeholder="Nome Completo" name="your-name"  value="" size="20" aria-required="true" aria-invalid="false" data-ls-module="charCounter" maxlength="20" placeholder="Nome Completo" class="inputu" style=" margin-top: 50px;"></span>
+			
+				<span><input class="intipu"  required placeholder="Telefone" required placeholder="Telefone" type="text" name="your-phone" value="" size="20" aria-required="true" aria-invalid="false" placeholder="Telefone" onkeypress="mascara(this)" maxlength="15" class="inputu" style="padding-left: 13px; margin-bottom: 40px;" ></span>
+				<div>
+				<span ><input type="email" name="your-email" type="email" value="" size="24" aria-required="true" aria-invalid="false" placeholder="E-mail" data-ls-module="charCounter" required maxlength="40" class="inputuu" style="margin-bottom: 20px;"></span>
+				</div>	
+					
+					<span><textarea name="your-message" cols="23" rows="10" required aria-required="true" aria-invalid="false" placeholder="Mensagem" style="overflow: hidden; overflow-wrap: break-word; resize: horizontal; height: 212px;  "></textarea></span>
+						<br>
+						<br>
+					<button onclick="validation();" type="submit" value="Enviar" class="botaobunito">ENVIAR</button>
+				</form>
+		</div>					
+</div>
+<br>
+<div>
+	<iframe class="Mapinha" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.7162396459685!2d-48.483420485060975!3d-21.401074885797918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9394d0758fbe9%3A0x879f224e143f1641!2sBar%20do%20Munhoz!5e0!3m2!1spt-BR!2sbr!4v1620058920917!5m2!1spt-BR!2sbr" loading="lazy"></iframe>
+</div>
+	<footer class="pezudo"><!-- rodapé da página-->
+		<a id="linktopo" href="#">&uarr;</a>
+	</footer><!--  fecha rodapé da página-->
+	<div class="informacoesContato">
+		<a id="English" href="faleconosco-ingles.html"><img style="height:100%; width: 100%; max-width: 30px; max-height: 40px;" src="img/english.jpg" alt="English"></a>
+		<h5 style="padding-top: 5px;">Bar do Munhoz - Os melhores petiscos da região!</h5>
+		<h6>Endereço: 15900-000 - Bairro Talavasso, Taquaritinga - SP</h6>
+		<p style="color:#100f1d; text-align: center;">Informações e Reservas:</p>
+		<h3 style="color: white; line-height: 1.7; text-align: center;">(16) 3253-1048 / 3254-7372 /&nbsp; 98811-2487 Whatsapp<br>
+		Horário: De segunda à sexta das 09h00 ás 12h00 e das 15h00 ás 20h00<br>
+		Sábado das 09h00 ás 20h00.</h3>
+		<br>
+		<a href="tel:+551632531048" style="text-decoration: none; color: white; font-weight: bold;">(16) 3253-1048</a>
+		<br>
+		<br>
+		<a href="https://www.facebook.com/" target="_blank"><img src="img/face.png" alt="Nosso Facebook" style="width:50px; height:50px;"></a>
+		<a href="https://www.google.com.br/maps/place/Bar+do+Munhoz/@-21.4010699,-48.4834205,17z/data=!3m1!4b1!4m5!3m4!1s0x94b9394d0758fbe9:0x879f224e143f1641!8m2!3d-21.4010749!4d-48.4812318" target="_blank"><img src="img/maps.png"  alt="Google Maps" style="width:50px; height:50px;" ></a>
+		<a href="https://www.instagram.com/embuscadocodigo/" target="_blank"><img src="img/insta.png" alt="Perfil no Instagram" style="width:50px; height:50px;"></a>
+		<br>
+		<br>
+		<h2>© Bar do Munhoz 2021</h2>
+		</div>
+		</body><!-- fecha corpo da página-->
+	</html>
