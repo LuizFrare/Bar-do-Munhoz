@@ -1,3 +1,7 @@
+:root {
+	--background: #fff;
+	--foreground: #000;
+}
 *{
 	margin:0;
 	padding:0;
@@ -6,8 +10,9 @@
 	box-sizing:border-box;
 }
 
+
 body{
-	background-color:#ffffff;
+	background-color: var(--background);
    }
    
    a{
@@ -134,7 +139,7 @@ h{
 	font-size:12pt;
 	text-align:center;
 	text-decoration:none;
-	color: black;
+	color: var(--foreground);
 	padding:10px 30px 20px 30px;
 }
 
